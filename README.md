@@ -2,7 +2,7 @@
 
 ### [Live Site](https://news-assist.netlify.app/)
 
-![Voice Controlled React News Application]()
+![Voice Controlled React News Application](https://github.com/khansamad99/news_assistant/blob/main/Screenshot%20(78).png)
 
 ## About Project
 
