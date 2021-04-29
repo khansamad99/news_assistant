@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react'
 import allanBtn from '@alan-ai/alan-sdk-web'
 import NewsCards from './components/News/NewsCards'
 import wordsToNumbers from 'words-to-numbers'
-import useStyles from './style'
 import {Typography} from '@material-ui/core';
 
 const allanKey = '9ad17421040645669d468a70e2ddc29e2e956eca572e1d8b807a3e2338fdd0dc/stage'
@@ -10,7 +9,7 @@ const allanKey = '9ad17421040645669d468a70e2ddc29e2e956eca572e1d8b807a3e2338fdd0
 const App = () => {
   const [articles,setnewsArticles] = useState([])
   const [activeArticle, setActiveArticle] = useState(-1);
-  const classes = useStyles()
+  
  
   
   useEffect(() => {
